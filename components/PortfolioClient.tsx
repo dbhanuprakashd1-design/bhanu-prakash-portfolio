@@ -393,6 +393,23 @@ Next.js, WordPress, REST APIs, Git, GitHub, Vercel and AWS EC2.
             <div className="contact-actions">
               <a href="dbhanuprakash.d1@gmail.com" className="primary-btn"><Mail size={18}/> Email me</a>
               <a href="https://github.com/dbhanuprakashd1-design?tab=repositories" target="_blank" rel="noreferrer" className="ghost-btn"><Github size={18}/> GitHub</a>
+             <a
+                href="www.linkedin.com/in/bhanu-prakash-derangula-94011532a"
+                target="_blank"
+                rel="noreferrer"
+                className="ghost-btn"
+              >
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 24 24"
+                  fill="currentColor"
+                  aria-hidden="true"
+                >
+                  <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.13 1.44-2.13 2.94v5.67H9.35V8.99h3.41v1.56h.05c.47-.9 1.63-1.85 3.35-1.85 3.59 0 4.25 2.36 4.25 5.43v6.32zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM3.56 8.99h3.57v11.46H3.56V8.99z" />
+                </svg>
+                LinkedIn
+              </a>
             </div>
             <div className="contact-meta">
               <span><MapPin size={16}/> India</span>
