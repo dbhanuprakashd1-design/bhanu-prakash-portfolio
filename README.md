@@ -1,4 +1,4 @@
-# Bhanu Prakash — Animated Developer Portfolio
+# Bhanu Prakash —  Portfolio
 
 A production-style portfolio built with Next.js, Tailwind CSS, TypeScript and client-side animation.
 
@@ -11,7 +11,7 @@ A production-style portfolio built with Next.js, Tailwind CSS, TypeScript and cl
 - Animated skill bars
 - Infinite technology marquee
 - Experience timeline
-- Two project showcase cards
+- 5 project showcase cards
 - SEO metadata
 - robots.txt
 - sitemap
@@ -27,13 +27,6 @@ npm run dev
 
 Open http://localhost:3000
 
-## Before publishing
-
-1. Replace `your.email@example.com` in `components/PortfolioClient.tsx`.
-2. Replace GitHub URL with your actual GitHub profile.
-3. Update the Excelar role, dates and responsibilities with your exact details.
-4. Update the Vercel domain in `public/robots.txt` and `app/sitemap.ts`.
-5. Add live project URLs when available.
 
 ## Deploy
 
