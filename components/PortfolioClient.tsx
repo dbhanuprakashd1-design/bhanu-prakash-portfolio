@@ -197,7 +197,7 @@ export default function PortfolioClient() {
         <div className="orb orb-two" />
         <div className="hero-inner">
           <div className="hero-copy reveal">
-            <div className="eyebrow"><span className="pulse" /> FRONTEND DEVELOPER · WEB ENGINEER</div>
+            <div className="eyebrow"><span className="pulse" /> FRONTEND DEVELOPER · REACT.JS DEVELOPER</div>
             <h1>
               I build <span className="gradient-text">fast, modern</span>
               <br /> web experiences.
