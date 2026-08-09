@@ -4,7 +4,8 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Bhanu Prakash | Frontend Developer",
   description:
-    "Portfolio of Bhanu Prakash — Frontend Developer building responsive, SEO-friendly and production-ready web applications with React, Next.js, JavaScript and Tailwind CSS.",
+    "Portfolio of Bhanu Prakash — Frontend Developer building responsive, SEO-friendly and production-ready web applications.",
+
   keywords: [
     "Bhanu Prakash",
     "Frontend Developer",
@@ -17,8 +18,18 @@ export const metadata: Metadata = {
     "AWS EC2",
     "Vercel"
   ],
+
+  verification: {
+    google: "5bIBxCLP0gqR3kT5uzWrhjRBao8XIvFAGSOAHBzFskU"
+  },
+
   authors: [{ name: "Bhanu Prakash" }],
-  robots: { index: true, follow: true },
+
+  robots: {
+    index: true,
+    follow: true
+  },
+
   openGraph: {
     title: "Bhanu Prakash | Frontend Developer",
     description:
