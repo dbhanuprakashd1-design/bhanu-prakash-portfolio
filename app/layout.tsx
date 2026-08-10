@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     "Portfolio of Bhanu Prakash — Frontend Developer building responsive, SEO-friendly and production-ready web applications.",
 
   keywords: [
-    "Bhanu Prakash",
+    "Bhanu Prakash Derangula",
     "Frontend Developer",
     "React Developer",
     "Next.js Developer",
