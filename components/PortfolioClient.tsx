@@ -217,7 +217,8 @@ export default function PortfolioClient() {
             <div className="quick-stats">
               <div><strong>15+</strong><span>Technologies</span></div>
               <div><strong>1+ years</strong><span>Work experiences</span></div>
-              <div><strong>2+</strong><span>Featured projects</span></div>
+              <div><strong>3</strong><span>Professional Project</span></div>
+             <div><strong>2+</strong><span>Personal Project</span></div>
             </div>
           </div>
 
