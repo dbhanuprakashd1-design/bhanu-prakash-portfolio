@@ -3,6 +3,9 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Bhanu Prakash Derangula | Frontend Developer",
+  icons: {
+    icon: "/profile.jpg",
+  },
   description:
     "Portfolio of Bhanu Prakash — Frontend Developer building responsive, SEO-friendly and production-ready web applications.",
 
