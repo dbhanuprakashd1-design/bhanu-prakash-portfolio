@@ -69,54 +69,76 @@ const experience = [
 
 const projects = [
   {
-    number: "01",
+  number: "01",
+  title: "SiteDoctor",
+  type: "Personal Project",
+  description:
+    "A professional technical SEO audit tool that analyzes any website and generates a comprehensive SEO report with meta tags, broken links, schema, security headers, Core Web Vitals, keyword analysis, internal/external links, and actionable recommendations.",
+  stack: [
+    "Next.js",
+    "React.js",
+    "JavaScript",
+    "Tailwind CSS",
+    "Vercel"
+  ],
+  result: "Live on Vercel",
+  url: "https://sitedoctor-sooty.vercel.app/",
+  image: "/sitedoctor.png"
+},
+  {
+    number: "02",
     title: "BSGB Bhavani Farms",
     type: "Personal Project",
     description:
       "A responsive sheep and goat farming website designed to present the farm, breeds, services, gallery and video content with a clean modern experience.",
     stack: ["React.js", "Tailwind CSS", "JavaScript", "Vite", "Responsive UI"],
     result: "Live on Vercel",
-    url: "https://bsgb-bhavani-farms.vercel.app/"
+    url: "https://bsgb-bhavani-farms.vercel.app/",
+    image: "/bsgb.png"
   },
   {
-    number: "02",
+    number: "03",
     title: "ShopEase E-Commerce",
     type: "Personal Project",
     description:
       "A modern React e-commerce application with product browsing, cart state, checkout flow and responsive shopping interfaces.",
     stack: ["React.js", "Tailwind CSS", "Context API", "JavaScript", "Responsive UI"],
     result: "Live on Vercel",
-    url: "https://shopease-self.vercel.app/"
+    url: "https://shopease-self.vercel.app/",
+    image: "/shopese.png"
   },
   {
-    number: "03",
+    number: "04",
     title: "Medify Healthcare Platform",
     type: "Professional Project",
     description:
       "Worked on the Medify healthcare application in development, contributing to responsive UI, healthcare service flows, frontend functionality and testing across the platform.",
     stack: ["React.js", "JavaScript", "HTML5", "CSS3", "Bootstrap", "jQuery"],
     result: "Professional Experience",
-    url: "https://app.medifyhome.com/"
+    url: "https://app.medifyhome.com/",
+    image: "/app.medifyhom.png"
   },
   {
-    number: "04",
+    number: "05",
     title: "MedifyMart",
     type: "Professional Project",
     description:
       "Worked on the MedifyMart medical equipment marketplace, including product listing interfaces, rental/sell product flows, cart-related UI and responsive improvements.",
     stack: ["React.js", "JavaScript", "HTML5", "CSS3", "Bootstrap", "jQuery"],
     result: "Professional Experience",
-    url: "https://app.medifyhome.com/MedifyMart"
+    url: "https://app.medifyhome.com/MedifyMart",
+    image: "/medifymart.png"
   },
   {
-    number: "05",
+    number: "06",
     title: "Medifyhome WordPress Website",
     type: "Professional Project",
     description:
       "Worked on the Medifyhome WordPress website and its content/SEO workflow, including page publishing, responsive UI updates, WordPress customization and website/server-related tasks.",
     stack: ["WordPress", "HTML5", "CSS3", "JavaScript", "SEO", "Server Setup"],
     result: "Professional Experience",
-    url: "https://medifyhome.com/"
+    url: "https://medifyhome.com/",
+    image: "/medifyhome.png"
   }
 ];
 
@@ -218,7 +240,7 @@ export default function PortfolioClient() {
               <div><strong>15+</strong><span>Technologies</span></div>
               <div><strong>1+ years</strong><span>Work experiences</span></div>
               <div><strong>3</strong><span>Professional Project</span></div>
-             <div><strong>2+</strong><span>Personal Project</span></div>
+             <div><strong>3+</strong><span>Personal Project</span></div>
             </div>
           </div>
 
@@ -356,7 +378,7 @@ Next.js, WordPress, REST APIs, Git, GitHub, Vercel and AWS EC2.
             {projects.map((project, index) => (
               <article className="project-card reveal" key={project.number}>
                 <div className="project-number">{project.number}</div>
-                <div className={`project-visual visual-${(index % 2) + 1}`}>
+                {/* <div className={`project-visual visual-${(index % 2) + 1}`}>
                   <div className="visual-window">
                     <div className="visual-bar"><i/><i/><i/></div>
                     <div className="visual-content">
@@ -368,7 +390,17 @@ Next.js, WordPress, REST APIs, Git, GitHub, Vercel and AWS EC2.
                       <div className="fake-cart">{project.result}</div>
                     </div>
                   </div>
-                </div>
+                </div> */}
+                <div className="project-visual">
+  <a href={project.url} target="_blank" rel="noreferrer">
+    <img
+      src={project.image}
+      alt={`${project.title} Website Preview`}
+      className="project-image"
+      loading="lazy"
+    />
+  </a>
+</div>
                 <div className="project-body">
                   <div className="project-top"><span>{project.type}</span><span>{project.result}</span></div>
                   <h3>{project.title}</h3>
@@ -392,7 +424,7 @@ Next.js, WordPress, REST APIs, Git, GitHub, Vercel and AWS EC2.
             <h2>Have a project<br /><span className="gradient-text">in mind?</span></h2>
             <p>Let&apos;s build something fast, useful and memorable.</p>
             <div className="contact-actions">
-              <a href="dbhanuprakash.d1@gmail.com" className="primary-btn"><Mail size={18}/> Email me</a>
+              <a href="mailto:dbhanuprakash.d1@gmail.com" className="primary-btn"><Mail size={18}/> Email me</a>
               <a href="https://github.com/dbhanuprakashd1-design?tab=repositories" target="_blank" rel="noreferrer" className="ghost-btn"><Github size={18}/> GitHub</a>
              <a
                 href="https://www.linkedin.com/in/bhanu-prakash-derangula-94011532a/"
