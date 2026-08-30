@@ -256,3 +256,22 @@ a { color: inherit; text-decoration: none; }
   white-space: nowrap;
   font-size: 10px;
 }
+.project-visual {
+  overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid rgba(255,255,255,.08);
+  background: #0f172a;
+  aspect-ratio: 16/10;
+}
+
+.project-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform .45s ease;
+}
+
+.project-card:hover .project-image {
+  transform: scale(1.04);
+}
