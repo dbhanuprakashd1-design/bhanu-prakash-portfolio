@@ -427,11 +427,11 @@ Next.js, WordPress, REST APIs, Git, GitHub, Vercel and AWS EC2.
               <a href="mailto:dbhanuprakash.d1@gmail.com" className="primary-btn"><Mail size={18}/> Email me</a>
               <a href="https://github.com/dbhanuprakashd1-design?tab=repositories" target="_blank" rel="noreferrer" className="ghost-btn"><Github size={18}/> GitHub</a>
              <a
-                href="https://www.linkedin.com/in/bhanu-prakash-derangula-94011532a/"
-                target="_blank"
-                rel="noreferrer"
-                className="ghost-btn"
-              >
+  href="https://www.linkedin.com/in/bhanu-prakash-derangula-94011532a"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="ghost-btn"
+>
                 <svg
                   width="18"
                   height="18"
