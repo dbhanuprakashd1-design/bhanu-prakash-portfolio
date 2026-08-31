@@ -66,7 +66,16 @@ export const metadata: Metadata = {
     images: ["/opengraph-image.png"],
   },
 };
-
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "Person",
+  name: "Bhanu Prakash Derangula",
+  jobTitle: "Frontend Developer",
+  url: "https://bhanu-prakash-portfolio-opal.vercel.app",
+  sameAs: [
+    "https://www.linkedin.com/in/bhanu-prakash-derangula-94011532a/",
+  ],
+};
 export default function RootLayout({
   children
 }: Readonly<{ children: React.ReactNode }>) {
