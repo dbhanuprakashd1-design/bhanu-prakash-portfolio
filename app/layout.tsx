@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/profile.jpg",
   },
+  alternates: {
+    canonical: "https://bhanu-prakash-portfolio-opal.vercel.app/",
+  },
   description:
     "Portfolio of Bhanu Prakash — Frontend Developer building responsive, SEO-friendly and production-ready web applications.",
 
