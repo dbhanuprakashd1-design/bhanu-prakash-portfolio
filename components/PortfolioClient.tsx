@@ -32,7 +32,7 @@ const skills = [
 const experience = [
   {
     company: "Medify Health Solutions",
-    role: "Frontend Developer",
+    role: "Full Stack Developer",
     period: "Dec 2025 — Present",
     tag: "Current",
     points: [
@@ -45,7 +45,7 @@ const experience = [
   },
   {
     company: "Medify Health Solutions",
-    role: "Frontend Developer Intern",
+    role: "Full Stack Developer Intern",
     period: "Sep 2025 — Dec 2025",
     tag: "Internship",
     points: [
