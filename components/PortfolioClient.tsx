@@ -32,7 +32,7 @@ const skills = [
 const experience = [
   {
     company: "Medify Health Solutions",
-    role: "Full Stack Developer",
+    role: "Frontend Developer",
     period: "Dec 2025 — Present",
     tag: "Current",
     points: [
@@ -45,11 +45,11 @@ const experience = [
   },
   {
     company: "Medify Health Solutions",
-    role: "Full Stack Developer Intern",
+    role: "Frontend Developer Intern",
     period: "Sep 2025 — Dec 2025",
     tag: "Internship",
     points: [
-      "Worked on Full Stack Developer, AJAX-driven functionality and responsive UI improvements.",
+      "Worked on Frontend Developer, AJAX-driven functionality and responsive UI improvements.",
       "Supported WordPress customization and website content implementation.",
       "Collaborated with the development team on real-world healthcare product pages and user flows."
     ]
@@ -219,13 +219,13 @@ export default function PortfolioClient() {
         <div className="orb orb-two" />
         <div className="hero-inner">
           <div className="hero-copy reveal">
-            <div className="eyebrow"><span className="pulse" /> Full Stack Developer · REACT.JS DEVELOPER</div>
+            <div className="eyebrow"><span className="pulse" /> Frontend Developer · REACT.JS DEVELOPER</div>
             <h1>
               I build <span className="gradient-text">fast, modern</span>
               <br /> web experiences.
             </h1>
             <p className="hero-sub">
-              Bhanu Prakash — a Full Stack Developer focused on responsive interfaces,
+              Bhanu Prakash — a Frontend Developer focused on responsive interfaces,
               React/Next.js applications, SEO-friendly websites and production deployment.
             </p>
             <div className="hero-actions">
@@ -251,7 +251,7 @@ export default function PortfolioClient() {
   <div className="profile-photo-wrapper">
     <Image
       src="/profile.jpg"
-      alt="Bhanu Prakash - Full Stack Developer"
+      alt="Bhanu Prakash - Frontend Developer"
       width={600}
       height={600}
       priority
@@ -264,7 +264,7 @@ export default function PortfolioClient() {
   <div className="profile-info">
     <div>
       <h3>Bhanu Prakash</h3>
-      <p>Full Stack Developer</p>
+      <p>Frontend Developer</p>
     </div>
 
     <div className="status-line">
@@ -287,7 +287,7 @@ export default function PortfolioClient() {
           <div className="about-grid">
             <div className="about-copy reveal">
               <p className="lead">
-                I&apos;m a Full Stack Developer with experience building responsive,
+                I&apos;m a Frontend Developer with experience building responsive,
 user-friendly web applications using React.js, JavaScript,
 HTML, CSS, Bootstrap and Tailwind CSS. I also work with
 Next.js, WordPress, REST APIs, Git, GitHub, Vercel and AWS EC2.
@@ -446,7 +446,7 @@ Next.js, WordPress, REST APIs, Git, GitHub, Vercel and AWS EC2.
             </div>
             <div className="contact-meta">
               <span><MapPin size={16}/> India</span>
-              <span><Terminal size={16}/> Full Stack Developer</span>
+              <span><Terminal size={16}/> Frontend Developer</span>
               <span><Database size={16}/> React · Next.js · Node</span>
             </div>
           </div>
