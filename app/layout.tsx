@@ -4,10 +4,10 @@ import "./globals.css";
 export const metadata: Metadata = {
   metadataBase: new URL("https://bhanu-prakash-portfolio-opal.vercel.app"),
 
-  title: "Bhanu Prakash Derangula | Full Stack Developer",
+  title: "Bhanu Prakash Derangula | Frontend Developer",
 
   description:
-    "Portfolio of Bhanu Prakash — Full Stack Developer building responsive, SEO-friendly and production-ready web applications.",
+    "Portfolio of Bhanu Prakash — Frontend Developer building responsive, SEO-friendly and production-ready web applications.",
 
   icons: {
     icon: "/profile.jpg",
@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
   keywords: [
     "Bhanu Prakash Derangula",
-    "Full Stack Developer",
+    "FrontendDeveloper",
     "React Developer",
     "Next.js Developer",
     "JavaScript Developer",
@@ -42,9 +42,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Bhanu Prakash | Full Stack Developer",
+    title: "Bhanu Prakash | Frontend Developer",
     description:
-      "Modern portfolio showcasing Full Stack Developer, full-stack projects, SEO and deployment skills.",
+      "Modern portfolio showcasing Frontend Developer, full-stack projects, SEO and deployment skills.",
     url: "https://bhanu-prakash-portfolio-opal.vercel.app",
     siteName: "Bhanu Prakash Portfolio",
     type: "website",
@@ -60,9 +60,9 @@ export const metadata: Metadata = {
 
   twitter: {
     card: "summary_large_image",
-    title: "Bhanu Prakash | Full Stack Developer",
+    title: "Bhanu Prakash | Frontend Developer",
     description:
-      "Full Stack Developer building modern React & Next.js applications.",
+      "FrontendDeveloper building modern React & Next.js applications.",
     images: ["/opengraph-image.png"],
   },
 };
@@ -70,7 +70,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Bhanu Prakash Derangula",
-  jobTitle: "Full Stack Developer",
+  jobTitle: "Frontend Developer",
   url: "https://bhanu-prakash-portfolio-opal.vercel.app",
   sameAs: [
     "https://www.linkedin.com/in/bhanu-prakash-derangula-94011532a/",
